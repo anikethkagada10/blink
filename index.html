@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Day Wish</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+        }
+        .card {
+            width: 300px;
+            height: 400px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 20px;
+            overflow: hidden;
+            transform: scale(0.8);
+            transition: transform 0.5s;
+        }
+        .card:hover {
+            transform: scale(1);
+        }
+        .card img {
+            width: 40%;
+            height: 60%;
+        }
+        .card p {
+            font-size: 18px;
+            padding: 10px;
+            color: #333;
+        }
+        .cards {
+            display: flex;
+            gap: 20px;
+        }
+        .message {
+            font-size: 24px;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 style="color: white;">Happy Women's Day!</h1>
+        <div class="cards">
+            <div class="card">
+                <img src="images/mom.jpg" alt="Mom">
+                <p>Mom, you are my strength and my guide. Happy Women's Day!</p>
+            </div>
+            <div class="card">
+                <img src="images/sister.jpg" alt="Sister">
+                <p>Dear Sis, you inspire me every day. Happy Women's Day!</p>
+            </div>
+        </div>
+        <p class="message">Wishing you love, happiness, and success!</p>
+    </div>
+</body>
+</html>
